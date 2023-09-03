@@ -23,9 +23,9 @@ const Navbar = () => {
     return (
         <>
             <nav className={`${styles.navbars} shadow`}>
-                <a href="/" className={styles.navbar_logo} ><Image src={logo} alt='...' />
+                <Link href="/" className={styles.navbar_logo} ><Image src={logo} alt='...' />
                     <div>OriginInstitute</div>
-                </a>
+                </Link>
                 <div className={`${styles.navbar_toggle} ${isMobileMenuOpen ? styles.isactive : ''}`} id={styles.mobileMenu} onClick={toggleMobileMenu}>
                     <span className={`${styles.bar} ${isMobileMenuOpen ? styles['barFirst'] : ''}`}></span>
                     <span className={`${styles.bar} ${isMobileMenuOpen ? styles['barSec'] : ''}`}></span>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link href="/courses" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>COURSES</Link>
                     <Link href="/gallery" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>GALLERY</Link>
                     <Link href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"
-                            rel="noopener noreferrer" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>CONNECT US</Link>
+                        rel="noopener noreferrer" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>CONNECT US</Link>
                 </div>
             </nav>
         </>
