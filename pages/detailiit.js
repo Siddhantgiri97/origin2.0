@@ -86,8 +86,8 @@ const Detailiit = () => {
                   </header>
 
                   <section class="mb-5">
-                    <p class="fs-5 mb-4">JEE Advanced exam is conducted for entry into 23 IIT's and some other prestigious universities like IISC Bangalore, IIST Thiruvananthapuram, etc.</p>
-                    <p class="fs-5 mb-4">This exam is conducted by any one of the IIT's every year. In 2020 the exam was conducted by IIT Delhi.</p>
+                    <p class="fs-5 mb-4">JEE Advanced exam is conducted for entry into 23 IIT&apos;s and some other prestigious universities like IISC Bangalore, IIST Thiruvananthapuram, etc.</p>
+                    <p class="fs-5 mb-4">This exam is conducted by any one of the IIT&apos;s every year. In 2020 the exam was conducted by IIT Delhi.</p>
                     <p class="fs-5 mb-4"> In 2021, 2022, 2023 it shall be conducted by IIT Kharagpur, IIT Bombay and IIT Guwahati respectively. More than 2 lakh students become eligible to write JEE Advanced every year. The students who qualify the JEE-Main exam become eligible for the JEE-Advanced examination</p>
                     <h2 class="fw-bolder mb-4 mt-5">Paper Pattern</h2>
                     <p class="fs-5 mb-4">JEE(Advanced) is conducted in two shifts of three hours each - Paper-1 and Paper-2, both the papers consist questions from three major subjects- Physics, Chemistry and Mathematics. </p>

@@ -103,7 +103,7 @@ const Courses = () => {
                         </div>
                         <div className={`${styles.membershop_perks}`}>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Concepts in atoms, molecules, reactions, bonds, and states</p>
-                            <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Explores matter's structure, composition, and transformations.</p>
+                            <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Explores matter&apos;s structure, composition, and transformations.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Focus on physical, organic, and inorganic chemistry fundamentals.</p>
                         </div>
                         <Link href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"

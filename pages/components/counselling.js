@@ -6,9 +6,6 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faCircleCheck);
-
-
-
 import styles from '@/styles/Home.module.css'
 
 const Counselling = () => {
@@ -24,7 +21,7 @@ const Counselling = () => {
                 Path to Engineering Excellence
               </p>
               <h1 className={`${styles.services_heading} ${styles.animateServices}`}>Admission Counseling</h1>
-              <p className={`${styles.services_feature} text-justify`}> Our seasoned team of experts possesses in-depth knowledge of the intricate admission processes of IITs, NITs, and Maharashtra's leading engineering colleges. We're committed to provide personalized guidance and ensure that you make well-informed decisions.<br></br> Here's what sets us apart:</p>
+              <p className={`${styles.services_feature} text-justify`}> Our seasoned team of experts possesses in-depth knowledge of the intricate admission processes of IITs, NITs, and Maharashtra&apos;s leading engineering colleges. We&apos;re committed to provide personalized guidance and ensure that you make well-informed decisions.<br></br> Here&apos;s what sets us apart:</p>
               <div className={styles.services_features}>
 
                 <p className={`${styles.services_feature} ${styles.animateServices}`}><FontAwesomeIcon icon={faCircleCheck} style={{ color: "#0FBF7F" }} className="pe-1" /> Customized Guidance</p>
