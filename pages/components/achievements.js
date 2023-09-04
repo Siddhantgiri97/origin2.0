@@ -11,56 +11,56 @@ import styles from '@/styles/Home.module.css'
 const Achievements = () => {
   return (
     <>
-    <div className={styles.cars}>
-          <div className={`text-center ${styles.heading}`}>
-            <h2 className={`${styles.sectionHeading} text-uppercase`}>Accomplishments</h2>
-            <h3 className={`${styles.sectionSubheading} text-muted`}>Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-          <Carousel>
-            <Carousel.Item>
-              <section className={`${styles.pageSection} bg-light`} id={styles.portfolio}>
-                <div className="container">
-                  <div className="row">
-                    <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  </div>
-                </div>
-              </section>
-            </Carousel.Item>
-            <Carousel.Item>
-              <section className={`${styles.pageSection} bg-light`} id={styles.portfolio}>
-                <div className="container">
-                  <div className="row">
-                    <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  </div>
-                </div>
-              </section>
-            </Carousel.Item>
-            <Carousel.Item>
-              <section className={`${styles.pageSection} bg-light`} id={styles.portfolio}>
-                <div className="container">
-                  <div className="row">
-                    <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                    <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  </div>
-                </div>
-              </section>
-            </Carousel.Item>
-          </Carousel>
+      <div className={styles.cars}>
+        <div className={`text-center ${styles.heading}`}>
+          <h2 className={`${styles.sectionHeading} text-uppercase`}>Accomplishments</h2>
+          <h3 className={`${styles.sectionSubheading} text-muted`}>Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
+        <Carousel>
+          <Carousel.Item>
+            <section className={`${styles.pageSection} bg-light`} id={styles.portfolio}>
+              <div className="container">
+                <div className="row">
+                  <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShamSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                </div>
+              </div>
+            </section>
+          </Carousel.Item>
+          <Carousel.Item>
+            <section className={`${styles.pageSection} bg-light`} id={styles.portfolio}>
+              <div className="container">
+                <div className="row">
+                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                </div>
+              </div>
+            </section>
+          </Carousel.Item>
+          <Carousel.Item>
+            <section className={`${styles.pageSection} bg-light`} id={styles.portfolio}>
+              <div className="container">
+                <div className="row">
+                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
+                </div>
+              </div>
+            </section>
+          </Carousel.Item>
+        </Carousel>
+      </div>
     </>
   )
 }

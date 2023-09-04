@@ -7,7 +7,7 @@ const CarouselItem = (props) => {
         <div className="col-lg-4 col-sm-6 mb-4">
             <div className={styles.portfolioItem}>
                 <Image className="img-fluid" src={props.studentImage} alt="..." />
-                <div className={styles.portfoliocaption} >
+                <div className={`${styles.portfoliocaption} shadow`} >
                     <div className={styles.portfoliocaptionheading}>{props.studentCollege}</div>
                     <div className={`${styles.portfoliocaptionsubheading} text-muted`}>{props.studentCity}</div>
                 </div>

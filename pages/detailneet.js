@@ -18,8 +18,8 @@ const Detailneet = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div className={styles.detailsPage}>
-        <section className="bg-light">
-          <div className="container px-5 my-5">
+        <section className={styles.topResult}>
+          <div className="container px-5 my-5 pt-3">
             <div className="text-center">
               <h2 className="fw-bolder">Top Results</h2>
               <p className="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
@@ -58,7 +58,7 @@ const Detailneet = () => {
         </section>
 
 
-        <section class="py-5">
+        <section class="py-5" id={styles.content}>
           <div class="container px-5 my-5">
             <div class="row gx-5">
               <div class="col-lg-3">
@@ -94,7 +94,7 @@ const Detailneet = () => {
                 </article>
                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                   <Link class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} className='me-2' />Call Us</Link>
-                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"
+                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20NEET%20course%20" target="_blank"
                     rel="noopener noreferrer"><FontAwesomeIcon icon={faCommentDots} className='me-2' />Whatsapp</Link>
                 </div>
               </div>

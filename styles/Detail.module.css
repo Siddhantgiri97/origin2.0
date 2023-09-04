@@ -1,3 +1,20 @@
-.detailsPage{
-    padding: 6rem calc((100vw - 1100px) / 2);
+.detailsPage {
+	padding: 5rem calc((100vw - 1100px) / 2);
+}
+.topResult {
+	background-color: #0093e9;
+	background-image: linear-gradient(160deg, #0093e9 45%, #80d0c7 100%);
+	color: #fff;
+	border-radius: 20px;
+	font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.fst-italic {
+	color: #fff;
+}
+#content {
+	font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

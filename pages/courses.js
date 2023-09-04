@@ -76,7 +76,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Mechanics, electromagnetism, optics, modern physics.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Problem-solving skills honed for engineering challenges</p>
                         </div>
-                        <Link href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"
+                        <Link href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20individual%20Physics%20course%20" target="_blank"
                             rel="noopener noreferrer"
                             className={`${styles.buttons}`}>Know More</Link>
                     </div>
@@ -91,7 +91,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Problem-solving, Permutations & Combinations, logic is crucial.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Develops analytical thinking, essential for engineering entrance.</p>
                         </div>
-                        <Link href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"
+                        <Link href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20individual%Mathematics%20course%20" target="_blank"
                             rel="noopener noreferrer"
                             className={`${styles.buttons}`}>Know More</Link>
                     </div>
@@ -106,7 +106,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Explores matter&apos;s structure, composition, and transformations.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Focus on physical, organic, and inorganic chemistry fundamentals.</p>
                         </div>
-                        <Link href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"
+                        <Link href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20individual%20Chemistry%20course%20" target="_blank"
                             rel="noopener noreferrer"
                             className={`${styles.buttons}`}>Know More</Link>
                     </div>

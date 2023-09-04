@@ -219,10 +219,13 @@ Services Section */
 	width: 85%;
 	height: 85%;
 	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .portfolioItem img {
-	border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 .heading .sectionHeading {
 	font-size: 2rem;
@@ -243,6 +246,8 @@ Services Section */
 	padding: 0.5rem;
 	text-align: center;
 	background-color: #fff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #portfolio .portfolioItem .portfoliocaption .portfoliocaptionheading {
 	font-size: 1rem;
