@@ -235,9 +235,23 @@ Services Section */
 .carImg {
 	/* display: block; */
 	max-width: 100%;
-	height: auto;
+	height: 80vh;
 	vertical-align: middle;
 	overflow-clip-margin: content-box;
+}
+
+@media screen and (max-width: 768px) {
+	.notify,
+	.carImg {
+		height: 90vh;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.notify,
+	.carImg {
+		height: auto;
+	}
 }
 
 /* Carousal section */
@@ -448,12 +462,12 @@ Services Section */
 .pageSections {
 	padding: 6rem calc((100vw - 1200px) / 2);
 }
- .sectionHeading {
+.sectionHeading {
 	font-size: 2rem;
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
- .sectionSubheading {
+.sectionSubheading {
 	font-size: 1rem;
 	font-weight: 400;
 	font-style: italic;
