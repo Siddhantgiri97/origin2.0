@@ -9,7 +9,7 @@ const Teams = () => {
   return (
     <div className={styles.team}>
           <div className={styles.team_wrapper}>
-            <div className={`${styles.team_text} ${styles.animateTeam}`}>
+            <div className={`${styles.team_text} animateTeam`}>
               <p className={styles.topline}>Personal Coaching</p>
               <h1>Meet our Faculty</h1>
               <p className={styles.team_desc}>All our faculty members have over 5+ years of experience. Each Faculty specializes in
@@ -18,7 +18,7 @@ const Teams = () => {
 
 
 
-            <div className={`${styles.team_card} ${styles.animateTeam}`}>
+            <div className={`${styles.team_card} animateTeam`}>
               <div className={styles.content}>
                 <div className={styles.contentBx}>
                   <h3>Shyamal Gawande </h3>
@@ -26,7 +26,7 @@ const Teams = () => {
               </div>
               <Image src={ShamSirImg} alt="" className={styles.team_img} />
             </div>
-            <div className={`${styles.team_card} ${styles.animateTeam}`}>
+            <div className={`${styles.team_card} animateTeam`}>
               <div className={styles.content}>
                 <div className={styles.contentBx}>
                   <h3>Shrikant Lohakare </h3>
@@ -34,7 +34,7 @@ const Teams = () => {
               </div>
               <Image src={ShriSirImg} alt="" className={styles.team_img} />
             </div>
-            <div className={`${styles.team_card} ${styles.animateTeam}`}>
+            <div className={`${styles.team_card} animateTeam`}>
               <div className={styles.content}>
                 <div className={styles.contentBx}>
                   <h3>Amit Sawai </h3>
@@ -44,7 +44,7 @@ const Teams = () => {
             </div>
 
 
-            <div className={`${styles.team_text} ${styles.animateTeam}`}>
+            <div className={`${styles.team_text} animateTeam`}>
               <p className={styles.topline}>Faculty Expectations </p>
               <h1>Duties Review</h1>
               <p className={styles.team_desc}>Responsible for competent and effective performance of their duties and foster collegial relationships students. </p>

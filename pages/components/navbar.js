@@ -24,7 +24,7 @@ const Navbar = () => {
         <>
             <nav className={`${styles.navbars} shadow`}>
                 <Link href="/" className={styles.navbar_logo} ><Image src={logo} alt='...' />
-                    <div>OriginInstitute</div>
+                    <div>Origin Institute</div>
                 </Link>
                 <div className={`${styles.navbar_toggle} ${isMobileMenuOpen ? styles.isactive : ''}`} id={styles.mobileMenu} onClick={toggleMobileMenu}>
                     <span className={`${styles.bar} ${isMobileMenuOpen ? styles['barFirst'] : ''}`}></span>

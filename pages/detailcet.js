@@ -93,8 +93,8 @@ const Detailcet = () => {
                   </section>
                 </article>
                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                  <Link class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} className='me-2' />Call US</Link>
-                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20MHT-CET%20course%20" target="_blank"
+                  <Link class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call US</Link>
+                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20MHT-CET%20course%20" target="_blank"
                     rel="noopener noreferrer"><FontAwesomeIcon icon={faCommentDots} className='me-2' />Whatsapp</Link>
                 </div>
               </div>

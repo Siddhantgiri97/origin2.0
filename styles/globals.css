@@ -1,5 +1,5 @@
 :root {
-	--red: #3587F2;
+	--red: #3587f2;
 	--black: #000;
 	--white: #fff;
 }
@@ -9,6 +9,5 @@ body {
 	padding: 0;
 	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
-
-

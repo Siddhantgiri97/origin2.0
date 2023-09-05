@@ -1,20 +1,45 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
+import Image from 'next/image'
+import { useState, useEffect } from 'react'
+import Notification from './components/notification'
 import Services from './components/services'
 import Achievements from './components/achievements'
 import Teams from './components/teams'
 import Counselling from './components/counselling'
+import Journey from './components/journey'
 
+import rocket from '../public/rocket.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faArrowRight);
+library.add(faArrowRight, faChevronUp);
 
 import styles from '@/styles/Home.module.css'
+import ExploreCourses from './components/exploreCourses'
 
 export default function Home() {
+
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
+  // This function will scroll the window to the top 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // for smoothly scrolling
+    });
+  };
   const handleScroll = (e) => {
 
     e.preventDefault();
@@ -27,6 +52,7 @@ export default function Home() {
       behavior: "smooth",
     });
   };
+
 
   return (
     <>
@@ -41,21 +67,32 @@ export default function Home() {
         {/* Hero Section */}
         <div className={styles.hero}>
           <div className={styles.hero_content}>
+            <h3 className={`${styles.heroName} fst-italic`}>Shyamal Gawande Sir&apos;s & Shrikant Lohakare Sir&apos;s</h3>
             <h1 className={styles.animateHero}>Origin Institute</h1>
             <p className={styles.animateHero}>Where Success Originates.</p>
-            <Link href="#srvce" className={`${styles.heroButtons} ${styles.animateHero} me-1`} onClick={handleScroll}  >Get Started <FontAwesomeIcon icon={faArrowRight} className='ms-2' /></Link>
+            <Link href="#srvce" className={`${styles.heroButtons} ${styles.animateHero} me-1`} onClick={handleScroll}  >Get Started <FontAwesomeIcon icon={faArrowRight} beat className='ms-2' /></Link>
           </div>
         </div>
         {/* Hero section end */}
 
-        {/* <!-- Services Section --> */}
-        <Services />
-        {/* Services section end */}
+        {/* Notification section */}
+
+        <Notification />
+        {/* Notification section end */}
+
+
 
         {/* <!-- Carousal section --> */}
         <Achievements />
 
         {/* Carousel section end */}
+        {/* <!-- Services Section --> */}
+        <Services />
+        {/* Services section end */}
+
+        {/* Explore Courses */}
+        <ExploreCourses />
+        {/* Explore Courses end */}
 
         {/* <!-- Team Section --> */}
         <Teams />
@@ -65,8 +102,18 @@ export default function Home() {
         {/* <!-- Counselling section --> */}
         <Counselling />
 
+        {/* Journey Section */}
+        <Journey />
+        {/* Journey Section end */}
+
         {/* <!-- Counselling section  end--> */}
       </main >
+      {showButton && (
+        <button onClick={scrollToTop} className={styles.backToTop}>
+          <Image src={rocket} alt=".." className='rounded-circle img-fluid' />
+          {/* <FontAwesomeIcon icon={faChevronUp}/> */}
+        </button>
+      )}
     </>
   )
 }

@@ -19,9 +19,9 @@ const Courses = () => {
             </Head>
             <div className={styles.memberships}>
                 <h1 className={styles.animateMembership}>Our Course Specialization</h1>
-                <p className={`${styles.membership_description} ${styles.animateMembership}`}>Proven results, experienced faculty, tailored approaches for effective learning and exam success.</p>
+                <p className={`${styles.membership_description} animateMembership`}>Proven results, experienced faculty, tailored approaches for effective learning and exam success.</p>
                 <div className={`${styles.membership_wrapper} mb-5`}>
-                    <div className={`${styles.membership_card} ${styles.animateCard}  `}>
+                    <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>
                             <FontAwesomeIcon icon={faBuildingColumns} className={styles.card_icon} />
                             <h3>IIT-JEE</h3>
@@ -34,7 +34,7 @@ const Courses = () => {
                         <Link href="/detailiit" className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
-                    <div className={`${styles.membership_card} ${styles.animateCard}  `}>
+                    <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>
                             <FontAwesomeIcon icon={faUserGraduate} className={styles.card_icon} />
                             <h3>MHT-CET</h3>
@@ -47,7 +47,7 @@ const Courses = () => {
                         <Link href="/detailcet" className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
-                    <div className={`${styles.membership_card} ${styles.animateCard}  `}>
+                    <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>
                             <FontAwesomeIcon icon={faStethoscope} className={styles.card_icon} />
                             <h3>NEET</h3>
@@ -64,9 +64,9 @@ const Courses = () => {
                 </div>
 
                 <h1 className={styles.animateMembership}>Our Expertise Subjects</h1>
-                <p className={`${styles.membership_description} ${styles.animateMembership}`}>Proven results, experienced faculty, tailored approaches for effective learning and exam success.</p>
+                <p className={`${styles.membership_description} animateMembership`}>Proven results, experienced faculty, tailored approaches for effective learning and exam success.</p>
                 <div className={styles.membership_wrapper}>
-                    <div className={`${styles.membership_card} ${styles.animateCard}  `}>
+                    <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>
                             <FontAwesomeIcon icon={faGears} className={styles.card_icon} />
                             <h3>Physics</h3>
@@ -76,12 +76,12 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Mechanics, electromagnetism, optics, modern physics.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Problem-solving skills honed for engineering challenges</p>
                         </div>
-                        <Link href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20individual%20Physics%20course%20" target="_blank"
+                        <Link href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20individual%20Physics%20course%20" target="_blank"
                             rel="noopener noreferrer"
                             className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
-                    <div className={`${styles.membership_card} ${styles.animateCard}  `}>
+                    <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>
                             <FontAwesomeIcon icon={faSuperscript} className={styles.card_icon} />
                             <h3>Mathematics</h3>
@@ -91,12 +91,12 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Problem-solving, Permutations & Combinations, logic is crucial.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Develops analytical thinking, essential for engineering entrance.</p>
                         </div>
-                        <Link href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20individual%Mathematics%20course%20" target="_blank"
+                        <Link href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20individual%20Mathematics%20course%20" target="_blank"
                             rel="noopener noreferrer"
                             className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
-                    <div className={`${styles.membership_card} ${styles.animateCard}  `}>
+                    <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>
                             <FontAwesomeIcon icon={faFlaskVial} className={styles.card_icon} />
                             <h3>Chemistry</h3>
@@ -106,7 +106,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Explores matter&apos;s structure, composition, and transformations.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Focus on physical, organic, and inorganic chemistry fundamentals.</p>
                         </div>
-                        <Link href="https://wa.me/7776969462?text=Hii%20there,%20I%20want%20to%20know%20more%20about%20individual%20Chemistry%20course%20" target="_blank"
+                        <Link href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20individual%20Chemistry%20course%20" target="_blank"
                             rel="noopener noreferrer"
                             className={`${styles.buttons}`}>Know More</Link>
                     </div>
