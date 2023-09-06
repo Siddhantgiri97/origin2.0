@@ -87,7 +87,7 @@ export default function Home() {
 
         {/* Carousel section end */}
         {/* <!-- Services Section --> */}
-        <Services />
+        {/* <Services /> */}
         {/* Services section end */}
 
         {/* Explore Courses */}
