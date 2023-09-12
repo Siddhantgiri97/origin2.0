@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import CarouselItem from './carouselItem'
+
 import VirtiImg from '../../public/studentImages/virti.png'
 import YashImg from '../../public/studentImages/yash.jpg'
 import SnehaImg from '../../public/studentImages/sneha.jpg'
@@ -96,12 +96,7 @@ const Achievements = () => {
             <section className={`${styles.pageSection} bg-light py-3`} id={styles.portfolio}>
               <div className="container">
                 <div className="row">
-                  {/* <CarouselItem studentImage={ShriSirImg} studentCollege={"NIT Jaipur"} studentCity={"Rudrayani Adichwal"} />
-                  <CarouselItem studentImage={ShriSirImg} studentCollege={"NIT Bhopal"} studentCity={"Prajwal Naphade"} /> */}
-                  {/* <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={ShriSirImg} studentCollege={"MIT"} studentCity={"Pune"} /> */}
+                  
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={RudraImg} alt="..." />
@@ -164,12 +159,7 @@ const Achievements = () => {
             <section className={`${styles.pageSection} bg-light py-3`} id={styles.portfolio}>
               <div className="container">
                 <div className="row">
-                  {/* <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} />
-                  <CarouselItem studentImage={AmitSirImg} studentCollege={"MIT"} studentCity={"Pune"} /> */}
+
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={RahulImg} alt="..." />

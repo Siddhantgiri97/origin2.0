@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Notification from './components/notification'
-import Services from './components/services'
+
 import Achievements from './components/achievements'
 import Teams from './components/teams'
 import Counselling from './components/counselling'
