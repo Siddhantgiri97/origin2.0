@@ -14,6 +14,11 @@ import RamImg from '../../public/studentImages/ram.png'
 import ShraddhaImg from '../../public/studentImages/shraddha.png'
 import RahulImg from '../../public/studentImages/rahul.png'
 import ShreyaImg from '../../public/studentImages/shreya.png'
+import PavanJImg from '../../public/studentImages/pawanj.png'
+import ManasImg from '../../public/studentImages/manas.png'
+import PawanImg from '../../public/studentImages/pawan.png'
+import DevyaniImg from '../../public/studentImages/devyani.png'
+import PranavImg from '../../public/studentImages/pranav.png'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -96,7 +101,7 @@ const Achievements = () => {
             <section className={`${styles.pageSection} bg-light py-3`} id={styles.portfolio}>
               <div className="container">
                 <div className="row">
-                  
+
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={RudraImg} alt="..." />
@@ -171,46 +176,46 @@ const Achievements = () => {
                   </div>
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
-                      <Image className="img-fluid" src={RudraImg} alt="..." />
+                      <Image className="img-fluid" src={PavanJImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Jaipur</div>
-                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Rudrayani Adichwal</div>
+                        <div className={styles.portfoliocaptionheading}>COEP Pune</div>
+                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Pawan Jadhao</div>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
-                      <Image className="img-fluid" src={RudraImg} alt="..." />
+                      <Image className="img-fluid" src={ManasImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Jaipur</div>
-                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Rudrayani Adichwal</div>
+                        <div className={styles.portfoliocaptionheading}>PICT Pune</div>
+                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Manas Rathi</div>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
-                      <Image className="img-fluid" src={RudraImg} alt="..." />
+                      <Image className="img-fluid" src={PawanImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Jaipur</div>
-                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Rudrayani Adichwal</div>
+                        <div className={styles.portfoliocaptionheading}>DJ Sanghvi Mumbai</div>
+                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Pawan Jadhao</div>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
-                      <Image className="img-fluid" src={RudraImg} alt="..." />
+                      <Image className="img-fluid" src={DevyaniImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Jaipur</div>
-                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Rudrayani Adichwal</div>
+                        <div className={styles.portfoliocaptionheading}>VIT Pune</div>
+                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Devyani Thokal</div>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
-                      <Image className="img-fluid" src={RudraImg} alt="..." />
+                      <Image className="img-fluid" src={PranavImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Jaipur</div>
-                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Rudrayani Adichwal</div>
+                        <div className={styles.portfoliocaptionheading}>VIT Pune</div>
+                        <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Pranav Mahajan</div>
                       </div>
                     </div>
                   </div>
