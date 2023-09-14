@@ -245,7 +245,7 @@ Services Section */
 @media screen and (max-width: 768px) {
 	.notify,
 	.carImg {
-		height: 90vh;
+		height: auto;
 	}
 }
 
