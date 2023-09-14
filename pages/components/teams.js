@@ -10,7 +10,7 @@ const Teams = () => {
     <div className={styles.team}>
           <div className={styles.team_wrapper}>
             <div className={`${styles.team_text} animateTeam`}>
-              <p className={styles.topline}>Personal Coaching</p>
+              <p className={styles.topline}>Professional Coaching</p>
               <h1>Meet our Faculty</h1>
               <p className={styles.team_desc}>All our faculty members have over 5+ years of experience. Each Faculty specializes in
                 strength and diverse foundation. </p>
