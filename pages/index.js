@@ -86,9 +86,6 @@ export default function Home() {
         <Achievements />
 
         {/* Carousel section end */}
-        {/* <!-- Services Section --> */}
-        {/* <Services /> */}
-        {/* Services section end */}
 
         {/* Explore Courses */}
         <ExploreCourses />
