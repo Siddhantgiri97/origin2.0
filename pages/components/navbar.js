@@ -35,7 +35,7 @@ const Navbar = () => {
                     <Link href="/" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>HOME</Link>
                     <Link href="/courses" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>COURSES</Link>
                     <Link href="/gallery" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>GALLERY</Link>
-                    <Link href="https://wa.me/7776969462?text=Hii%20there%20" target="_blank"
+                    <Link href="https://wa.me/7776969462?text=Hi%20there%20" target="_blank"
                         rel="noopener noreferrer" className={`${styles.navbar_link}`} onClick={closeMobileMenu}>CONNECT US</Link>
                 </div>
             </nav>
