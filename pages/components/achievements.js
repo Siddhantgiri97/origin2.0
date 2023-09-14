@@ -42,8 +42,10 @@ const Achievements = () => {
                   <div className="col-lg-4 col-sm-6 mb-4">
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={VirtiImg} alt="..." />
+
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>IIT Bombay</div>
+                        <div className={styles.portfoliocaptionheading}>IIT Bombay <span className="badge rounded-pill bg-primary">
+                          AIR 273 | 222 Main</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Virti Mehta</div>
                       </div>
                     </div>
@@ -52,7 +54,8 @@ const Achievements = () => {
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={YashImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Trichy</div>
+                        <div className={styles.portfoliocaptionheading}>NIT Trichy <span className="badge rounded-pill bg-primary">
+                          AIR 522</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Yash Sirsat</div>
                       </div>
                     </div>
@@ -61,7 +64,8 @@ const Achievements = () => {
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={SnehaImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Warangal</div>
+                        <div className={styles.portfoliocaptionheading}>NIT Warangal <span className="badge rounded-pill bg-primary">
+                          Rank(MH) 24</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Sneha Buktare</div>
                       </div>
                     </div>
@@ -70,7 +74,8 @@ const Achievements = () => {
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={ShamalImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>VNIT Nagpur</div>
+                        <div className={styles.portfoliocaptionheading}>VNIT Nagpur <span className="badge rounded-pill bg-primary">
+                          AIR 2698 | 5 (MH)</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Shamal Telangade</div>
                       </div>
                     </div>
@@ -79,7 +84,8 @@ const Achievements = () => {
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={HarshImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>NIT Rourkela</div>
+                        <div className={styles.portfoliocaptionheading}>NIT Rourkela <span className="badge rounded-pill bg-primary">
+                          Rank(MH) 27</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Harshal Nage</div>
                       </div>
                     </div>
@@ -88,7 +94,8 @@ const Achievements = () => {
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={ManaliImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>VNIT Nagpur</div>
+                        <div className={styles.portfoliocaptionheading}>VNIT Nagpur <span className="badge rounded-pill bg-primary">
+                          State Rank 1089</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Manali Kulkarni</div>
                       </div>
                     </div>
@@ -196,7 +203,8 @@ const Achievements = () => {
                     <div className={styles.portfolioItem}>
                       <Image className="img-fluid" src={PawanImg} alt="..." />
                       <div className={`${styles.portfoliocaption} shadow`} >
-                        <div className={styles.portfoliocaptionheading}>DJ Sanghvi Mumbai</div>
+                        <div className={styles.portfoliocaptionheading}>DJ Sanghvi Mumbai <span className="badge rounded-pill bg-primary">
+                          Rank(MH): 137</span></div>
                         <div className={`${styles.portfoliocaptionsubheading} text-muted`}>Pawan Jadhao</div>
                       </div>
                     </div>
