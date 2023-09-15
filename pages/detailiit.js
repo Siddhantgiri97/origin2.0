@@ -2,11 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
+import VirtiImg from '../public/studentImages/virti.png'
+import YashImg from '../public/studentImages/yash.jpg'
+import SnehaImg from '../public/studentImages/sneha.jpg'
+import ShamalImg from '../public/studentImages/shamal.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPhone, faCommentDots } from "@fortawesome/free-solid-svg-icons";
-
-import AmitSirImg from '../public/Amit_sir1.png'
 import styles from '@/styles/Detail.module.css'
 library.add(faPhone, faCommentDots);
 const Detailiit = () => {
@@ -23,35 +25,35 @@ const Detailiit = () => {
           <div className="container px-5 my-5 pt-3">
             <div className="text-center">
               <h2 className="fw-bolder">Top Results</h2>
-              <p className="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+              <p className="lead fw-normal mb-5">Dedicated to quality and your success</p>
             </div>
             <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
               <div className="col mb-5 mb-5 mb-xl-0">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Ibbie Eckart</h5>
-                  <div className="fst-italic text-muted">Founder &amp; CEO</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={VirtiImg} alt="..." />
+                  <h5 className="fw-bolder">Virti Mehta</h5>
+                  <div className="fst-italic ">IIT Bombay</div>
                 </div>
               </div>
               <div className="col mb-5 mb-5 mb-xl-0">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Arden Vasek</h5>
-                  <div className="fst-italic text-muted">CFO</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={YashImg} alt="..." />
+                  <h5 className="fw-bolder">Yash Sirsat</h5>
+                  <div className="fst-italic ">NIT Trichy</div>
                 </div>
               </div>
               <div className="col mb-5 mb-5 mb-sm-0">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Toribio Nerthus</h5>
-                  <div className="fst-italic text-muted">Operations Manager</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={SnehaImg} alt="..." />
+                  <h5 className="fw-bolder">Sneha Buktare</h5>
+                  <div className="fst-italic ">NIT Warangal</div>
                 </div>
               </div>
               <div className="col mb-5">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Malvina Cilla</h5>
-                  <div className="fst-italic text-muted">CTO</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={ShamalImg} alt="..." />
+                  <h5 className="fw-bolder">Shamal Telangade</h5>
+                  <div className="fst-italic">NIT Nagpur</div>
                 </div>
               </div>
             </div>

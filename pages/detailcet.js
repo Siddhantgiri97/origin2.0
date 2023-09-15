@@ -1,10 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
+import PavanJImg from '../public/studentImages/pawanj.png'
+import ManasImg from '../public/studentImages/manas.png'
+import PawanImg from '../public/studentImages/pawan.png'
+import DevyaniImg from '../public/studentImages/devyani.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPhone, faCommentDots } from "@fortawesome/free-solid-svg-icons";
-import AmitSirImg from '../public/Amit_sir1.png'
+
 import styles from '@/styles/Detail.module.css'
 
 library.add(faPhone, faCommentDots);
@@ -27,30 +31,30 @@ const Detailcet = () => {
             <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
               <div className="col mb-5 mb-5 mb-xl-0">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Ibbie Eckart</h5>
-                  <div className="fst-italic text-muted">Founder &amp; CEO</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={PavanJImg} alt="..." />
+                  <h5 className="fw-bolder">Pawan Jadhao</h5>
+                  <div className="fst-italic  ">COEP Pune</div>
                 </div>
               </div>
               <div className="col mb-5 mb-5 mb-xl-0">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Arden Vasek</h5>
-                  <div className="fst-italic text-muted">CFO</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={ManasImg} alt="..." />
+                  <h5 className="fw-bolder">Manas Rathi</h5>
+                  <div className="fst-italic  ">PICT Pune</div>
                 </div>
               </div>
               <div className="col mb-5 mb-5 mb-sm-0">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Toribio Nerthus</h5>
-                  <div className="fst-italic text-muted">Operations Manager</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={PawanImg} alt="..." />
+                  <h5 className="fw-bolder">Pawan Jadhao</h5>
+                  <div className="fst-italic  ">DJ Sanghvi</div>
                 </div>
               </div>
               <div className="col mb-5">
                 <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Malvina Cilla</h5>
-                  <div className="fst-italic text-muted">CTO</div>
+                  <Image className="img-fluid rounded-circle mb-4 px-4" src={DevyaniImg} alt="..." />
+                  <h5 className="fw-bolder">Devyani Thokal</h5>
+                  <div className="fst-italic  ">VIT Pune</div>
                 </div>
               </div>
             </div>
