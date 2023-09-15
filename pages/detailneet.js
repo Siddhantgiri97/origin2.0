@@ -18,7 +18,7 @@ const Detailneet = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div className={styles.detailsPage}>
-        <section className={styles.topResult}>
+        {/* <section className={styles.topResult}>
           <div className="container px-5 my-5 pt-3">
             <div className="text-center">
               <h2 className="fw-bolder">Top Results</h2>
@@ -55,7 +55,7 @@ const Detailneet = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
         <section class="py-5" id={styles.content}>

@@ -19,7 +19,7 @@ const Notification = () => {
             <div className={styles.notifyCar}>
                 <div className="container">
                     <div className="row d-flex justify-content-center ">
-                        <div className="col-lg-8 col-md-12 col-sm-12 mb-4">
+                        <div className="col-lg-8 col-md-12 col-sm-12">
                             <Carousel className={styles.notify}>
                                 <Carousel.Item className={styles.carAt}>
                                     <Image src={image1} alt='...' className={styles.carImg} />
@@ -46,7 +46,7 @@ const Notification = () => {
                                     <div className={styles.actions}>
                                         <button type="button" className={styles.history} onClick={handleRegister}>Register</button>
                                         <p className='text-center pt-2'>OR</p>
-                                        <button type="button" className={styles.track}>Connect us</button>
+                                        <Link href="https://wa.me/7776969462?text=Hi%20there%20" ><button type="button" className={styles.track}>Connect us</button></Link>
                                     </div>
                                 </div>
                             </div>

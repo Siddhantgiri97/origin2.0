@@ -227,7 +227,9 @@ Services Section */
 /* Notification Carousel */
 
 .notifyCar {
-	padding: 5rem calc((100vw - 1000px) / 2);
+	padding: 4rem calc((100vw - 1000px) / 2);
+}
+.notify {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -353,9 +355,9 @@ Services Section */
 
 @media only screen and (min-width: 768px) {
 	#id {
-		margin-top: 20px;
+		margin-top: 25px;
 	}
-	.card{
+	.card {
 		padding-left: 5px;
 		padding-right: 5px;
 	}
@@ -373,7 +375,7 @@ Services Section */
 
 /* Carousal section */
 .cars {
-	padding: 4rem calc((100vw - 1100px) / 2);
+	padding: 3rem calc((100vw - 1100px) / 2);
 }
 .portfolioItem {
 	width: 85%;
