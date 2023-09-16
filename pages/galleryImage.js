@@ -6,9 +6,9 @@ const GalleryImage = ({ images }) => {
         <>
             <div className="row gx-2 d-flex justify-content-center">
                 {images.map((filename, index) =>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div key={index} className="col-lg-4 col-md-6 col-sm-12">
                         <div className="position-relative mb-3">
-                            <img className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" key={index}
+                            <img className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" 
                                 src={`/galleryImages/${filename}`} alt="..." loading='lazy' />
                         </div>
                     </div>
