@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
-import PavanJImg from '../public/studentImages/pawanj.png'
-import ManasImg from '../public/studentImages/manas.png'
-import PawanImg from '../public/studentImages/pawan.png'
-import DevyaniImg from '../public/studentImages/devyani.png'
+import PavanJImg from '../../public/studentImages/pawanj.png'
+import ManasImg from '../../public/studentImages/manas.png'
+import PawanImg from '../../public/studentImages/pawan.png'
+import DevyaniImg from '../../public/studentImages/devyani.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPhone, faCommentDots } from "@fortawesome/free-solid-svg-icons";

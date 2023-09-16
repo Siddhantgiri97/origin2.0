@@ -31,7 +31,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Conducted by NTA for admission to NITs, IIITs.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Highly competitive and challenging exam.</p>
                         </div>
-                        <Link href="/detailiit" className={`${styles.buttons}`}>Know More</Link>
+                        <Link href="/courses/detailiit" className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
                     <div className={`${styles.membership_card} animateCard  `}>
@@ -44,7 +44,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Includes engineering, pharmacy, and agriculture courses.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Develops analytical thinking, essential for engineering entrance.</p>
                         </div>
-                        <Link href="/detailcet" className={`${styles.buttons}`}>Know More</Link>
+                        <Link href="/courses/detailcet" className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
                     <div className={`${styles.membership_card} animateCard  `}>
@@ -57,7 +57,7 @@ const Courses = () => {
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Replaced various state-level medical entrance tests.</p>
                             <p><FontAwesomeIcon icon={faHandPointRight} className='me-2' />Conducted by NTA for admission to medical colleges.</p>
                         </div>
-                        <Link href="/detailneet" className={`${styles.buttons}`}>Know More</Link>
+                        <Link href="/courses/detailneet" className={`${styles.buttons}`}>Know More</Link>
                     </div>
 
 

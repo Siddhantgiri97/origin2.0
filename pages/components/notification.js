@@ -45,7 +45,8 @@ const Notification = () => {
                                     <div className={styles.actions}>
                                         <button type="button" className={styles.history} onClick={handleRegister}>Register</button>
                                         <p className='text-center pt-2'>OR</p>
-                                        <Link href="https://wa.me/7776969462?text=Hi%20there%20" ><button type="button" className={styles.track}>Connect us</button></Link>
+                                        <Link href="https://wa.me/7776969462?text=Hi%20there%20" target="_blank"
+                                            rel="noopener noreferrer"><button type="button" className={styles.track}>Connect us</button></Link>
                                     </div>
                                 </div>
                             </div>
