@@ -62,43 +62,43 @@ const Detailcet = () => {
         </section>
 
 
-        <section class="py-5" id={styles.content}>
-          <div class="container px-5 my-5">
-            <div class="row gx-5">
-              <div class="col-lg-3">
-                <div class="d-flex align-items-center mt-lg-5 mb-4">
+        <section className="py-5" id={styles.content}>
+          <div className="container px-5 my-5">
+            <div className="row gx-5">
+              <div className="col-lg-3">
+                <div className="d-flex align-items-center mt-lg-5 mb-4">
 
-                  <div class="ms-3">
-                    <div class="fw-bold">Valerie Luna</div>
-                    <div class="text-muted">News, Business</div>
+                  <div className="ms-3">
+                    <div className="fw-bold">Course Name</div>
+                    <div className="text-muted">Details</div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div className="col-lg-9">
 
                 <article>
 
-                  <header class="mb-4">
+                  <header className="mb-4">
 
-                    <h1 class="fw-bolder mb-1">MHT-CET</h1>
+                    <h1 className="fw-bolder mb-1">MHT-CET</h1>
 
-                    <div class="text-muted fst-italic mb-2">January 1, 2021</div>
+                    <div className="text-muted fst-italic mb-2">January 1, 2021</div>
 
-                    <a class="badge bg-primary text-decoration-none link-light me-1" href="#!">Web Design</a>
-                    <a class="badge bg-primary text-decoration-none link-light" href="#!">Freebies</a>
+                    <a className="badge bg-primary text-decoration-none link-light me-1" href="#!">Web Design</a>
+                    <a className="badge bg-primary text-decoration-none link-light" href="#!">Freebies</a>
                   </header>
 
-                  <section class="mb-5">
-                    <p class="fs-5 mb-4">MHT CET (or Maharashtra Common Entrance Test) is a common state level entrance exam conducted by the State Common Entrance Test Cell, Government of Maharashtra every year for admission to undergraduate engineering, pharmacy and agriculture courses such as B.Tech/ B.E, Pharma D and B.Pharma offered at colleges in Maharashtra.</p>
-                    <p class="fs-5 mb-4">The examination is be conducted at various centres across the Maharashtra as well as outside Maharashtra State by Online mode (Computer Based Test) for PCM and PCB group separately.</p>
-                    <h2 class="fw-bolder mb-4 mt-5">Paper Pattern</h2>
-                    <p class="fs-5 mb-4">The paper pattern consits of be two sections in the exam - Physics, Chemistry, and Mathematics. Each section of the MHT CET  question paper will carry 100 marks. </p>
-                    <p class="fs-5 mb-4">The MHT CET question paper 2024 will be prepared on the basis of the Class 11th and 12th syllabus of the Maharashtra State Board of Secondary and Higher Secondary Education.</p>
+                  <section className="mb-5">
+                    <p className="fs-5 mb-4">MHT CET (or Maharashtra Common Entrance Test) is a common state level entrance exam conducted by the State Common Entrance Test Cell, Government of Maharashtra every year for admission to undergraduate engineering, pharmacy and agriculture courses such as B.Tech/ B.E, Pharma D and B.Pharma offered at colleges in Maharashtra.</p>
+                    <p className="fs-5 mb-4">The examination is be conducted at various centres across the Maharashtra as well as outside Maharashtra State by Online mode (Computer Based Test) for PCM and PCB group separately.</p>
+                    <h2 className="fw-bolder mb-4 mt-5">Paper Pattern</h2>
+                    <p className="fs-5 mb-4">The paper pattern consits of be two sections in the exam - Physics, Chemistry, and Mathematics. Each section of the MHT CET  question paper will carry 100 marks. </p>
+                    <p className="fs-5 mb-4">The MHT CET question paper 2024 will be prepared on the basis of the Class 11th and 12th syllabus of the Maharashtra State Board of Secondary and Higher Secondary Education.</p>
                   </section>
                 </article>
-                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                  <Link class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call US</Link>
-                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20MHT-CET%20course%20" target="_blank"
+                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                  <Link className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call US</Link>
+                  <Link className="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20MHT-CET%20course%20" target="_blank"
                     rel="noopener noreferrer"><FontAwesomeIcon icon={faCommentDots} className='me-2' />Whatsapp</Link>
                 </div>
               </div>

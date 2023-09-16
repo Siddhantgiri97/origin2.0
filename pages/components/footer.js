@@ -27,8 +27,8 @@ const Footer = () => {
                         <h2 className={styles.footer_title}>Media
                         </h2>
                         <Link href="https://www.instagram.com/origin_institute_akola/" className={styles.footer_link}>Instagram</Link>
-                        <Link href="/" className={styles.footer_link}>Facebook</Link>
-                        <Link href="/" className={styles.footer_link}>YouTube</Link>
+                        <Link href="https://www.facebook.com/origininstituteakola/" className={styles.footer_link}>Facebook</Link>
+                        <Link href="https://www.youtube.com/@shyamalgawande731" className={styles.footer_link}>YouTube</Link>
                     </div>
                     <div className={`${styles.footer_links}`}>
                         <h2 className={styles.footer_title}>Locate Us

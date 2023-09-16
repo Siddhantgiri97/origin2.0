@@ -32,7 +32,7 @@ const Achievements = () => {
       <div className={styles.cars} id='srvce'>
         <div className={`text-center ${styles.heading}`}>
           <h2 className={`${styles.sectionHeading} text-uppercase`}>Accomplishments</h2>
-          <h3 className={`${styles.sectionSubheading} text-muted`}>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className={`${styles.sectionSubheading} text-muted`}>A testament to our dedication.</h3>
         </div>
         <Carousel>
           <Carousel.Item>

@@ -10,8 +10,7 @@ import styles from '@/styles/Home.module.css'
 
 const Notification = () => {
 
-    const handleRegister = (e) => {
-        e.preventDefault();
+    const handleRegister = () => {
         alert("Link is not active yet. Contact Origin Institute.");
     }
     return (

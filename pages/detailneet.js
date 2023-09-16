@@ -1,10 +1,8 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPhone, faCommentDots } from "@fortawesome/free-solid-svg-icons";
-import AmitSirImg from '../public/Amit_sir1.png'
 import styles from '@/styles/Detail.module.css'
 library.add(faPhone, faCommentDots);
 
@@ -18,83 +16,43 @@ const Detailneet = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div className={styles.detailsPage}>
-        {/* <section className={styles.topResult}>
-          <div className="container px-5 my-5 pt-3">
-            <div className="text-center">
-              <h2 className="fw-bolder">Top Results</h2>
-              <p className="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
-            </div>
-            <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-              <div className="col mb-5 mb-5 mb-xl-0">
-                <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Ibbie Eckart</h5>
-                  <div className="fst-italic text-muted">Founder &amp; CEO</div>
-                </div>
-              </div>
-              <div className="col mb-5 mb-5 mb-xl-0">
-                <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Arden Vasek</h5>
-                  <div className="fst-italic text-muted">CFO</div>
-                </div>
-              </div>
-              <div className="col mb-5 mb-5 mb-sm-0">
-                <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Toribio Nerthus</h5>
-                  <div className="fst-italic text-muted">Operations Manager</div>
-                </div>
-              </div>
-              <div className="col mb-5">
-                <div className="text-center">
-                  <Image className="img-fluid rounded-circle mb-4 px-4" src={AmitSirImg} alt="..." />
-                  <h5 className="fw-bolder">Malvina Cilla</h5>
-                  <div className="fst-italic text-muted">CTO</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
+        <section className="py-5" id={styles.content}>
+          <div className="container px-5 my-5">
+            <div className="row gx-5">
+              <div className="col-lg-3">
+                <div className="d-flex align-items-center mt-lg-5 mb-4">
 
-
-        <section class="py-5" id={styles.content}>
-          <div class="container px-5 my-5">
-            <div class="row gx-5">
-              <div class="col-lg-3">
-                <div class="d-flex align-items-center mt-lg-5 mb-4">
-
-                  <div class="ms-3">
-                    <div class="fw-bold">Valerie Luna</div>
-                    <div class="text-muted">News, Business</div>
+                  <div className="ms-3">
+                    <div className="fw-bold">Course Name</div>
+                    <div className="text-muted">Details</div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div className="col-lg-9">
 
                 <article>
 
-                  <header class="mb-4">
+                  <header className="mb-4">
 
-                    <h1 class="fw-bolder mb-1">NEET</h1>
+                    <h1 className="fw-bolder mb-1">NEET</h1>
 
-                    <div class="text-muted fst-italic mb-2">January 1, 2021</div>
+                    <div className="text-muted fst-italic mb-2">January 1, 2021</div>
 
-                    <a class="badge bg-primary text-decoration-none link-light me-1" href="#!">Web Design</a>
-                    <a class="badge bg-primary text-decoration-none link-light" href="#!">Freebies</a>
+                    <a className="badge bg-primary text-decoration-none link-light me-1" href="#!">Web Design</a>
+                    <a className="badge bg-primary text-decoration-none link-light" href="#!">Freebies</a>
                   </header>
 
-                  <section class="mb-5">
-                    <p class="fs-5 mb-4">The National Eligibility cum Entrance Test (Undergraduate) or NEET (UG), formerly the All India Pre-Medical Test (AIPMT), is an all India pre-medical entrance test for students who wish to pursue undergraduate medical (MBBS), dental (BDS) and AYUSH (BAMS, BUMS, BHMS, etc.) courses in government and private institutions in India and also, for those intending to pursue primary medical qualification abroad. </p>
-                    <p class="fs-5 mb-4">The exam is conducted by National Testing Agency (NTA), which provides the results to the Directorate General of Health Services under Ministry of Health and Family Welfare and State Counselling Authorities for seat allocation</p>
-                    <h2 class="fw-bolder mb-4 mt-5">Paper Pattern</h2>
-                    <p class="fs-5 mb-4">There are a total of 180 questions asked in the exam, 45 questions each from Physics, Chemistry, Botany and Zoology. Each correct response fetches 4 marks and each incorrect response gets -1 negative marking. </p>
-                    <p class="fs-5 mb-4">The exam duration is 3 hours 20 minutes (200 min). The exam is of 720 marks (maximum marks).</p>
+                  <section className="mb-5">
+                    <p className="fs-5 mb-4">The National Eligibility cum Entrance Test (Undergraduate) or NEET (UG), formerly the All India Pre-Medical Test (AIPMT), is an all India pre-medical entrance test for students who wish to pursue undergraduate medical (MBBS), dental (BDS) and AYUSH (BAMS, BUMS, BHMS, etc.) courses in government and private institutions in India and also, for those intending to pursue primary medical qualification abroad. </p>
+                    <p className="fs-5 mb-4">The exam is conducted by National Testing Agency (NTA), which provides the results to the Directorate General of Health Services under Ministry of Health and Family Welfare and State Counselling Authorities for seat allocation</p>
+                    <h2 className="fw-bolder mb-4 mt-5">Paper Pattern</h2>
+                    <p className="fs-5 mb-4">There are a total of 180 questions asked in the exam, 45 questions each from Physics, Chemistry, Botany and Zoology. Each correct response fetches 4 marks and each incorrect response gets -1 negative marking. </p>
+                    <p className="fs-5 mb-4">The exam duration is 3 hours 20 minutes (200 min). The exam is of 720 marks (maximum marks).</p>
                   </section>
                 </article>
-                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                  <Link class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call Us</Link>
-                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20NEET%20course%20" target="_blank"
+                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                  <Link className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call Us</Link>
+                  <Link className="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20NEET%20course%20" target="_blank"
                     rel="noopener noreferrer"><FontAwesomeIcon icon={faCommentDots} className='me-2' />Whatsapp</Link>
                 </div>
               </div>

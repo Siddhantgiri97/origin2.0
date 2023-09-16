@@ -69,7 +69,7 @@ export default function Home() {
           <div className={styles.hero_content}>
             <h3 className={`${styles.heroName} fst-italic`}>Shyamal Gawande Sir&apos;s & Shrikant Lohakare Sir&apos;s</h3>
             <h1 className={styles.animateHero}>Origin Institute</h1>
-            <p className={styles.animateHero}>Where Success Originates.</p>
+            <p className={styles.animateHero}>Pioneering excellence in Akola.</p>
             <Link href="#srvce" className={`${styles.heroButtons} ${styles.animateHero} me-1`} onClick={handleScroll}  >Get Started <FontAwesomeIcon icon={faArrowRight} beat className='ms-2' /></Link>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Loader from './components/loader'
 import { useRouter } from 'next/router'
-import { config, dom } from '@fortawesome/fontawesome-svg-core';
+import { config } from '@fortawesome/fontawesome-svg-core';
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import 'bootstrap/dist/css/bootstrap.css';

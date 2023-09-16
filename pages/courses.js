@@ -64,7 +64,7 @@ const Courses = () => {
                 </div>
 
                 <h1 className={styles.animateMembership}>Our Expertise Subjects</h1>
-                <p className={`${styles.membership_description} animateMembership`}>Proven results, experienced faculty, tailored approaches for effective learning and exam success.</p>
+                <p className={`${styles.membership_description} animateMembership`}>Backed by tangible outcomes, seasoned educators, and customized strategies for successful learning.</p>
                 <div className={styles.membership_wrapper}>
                     <div className={`${styles.membership_card} animateCard  `}>
                         <div className={`${styles.membership_title}`}>

@@ -62,7 +62,7 @@ const CoursesCard = () => {
                                     </div>
                                     <div className={styles.solu_description}>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Embark on your path to IIT-JEE success with our meticulously crafted course, tailored to nurture your excellence.
                                         </p>
                                         <Link href='/courses'><button className={styles.read_more_btn} type="button">Read More</button></Link>
                                     </div>
@@ -125,7 +125,7 @@ const CoursesCard = () => {
                                     </div>
                                     <div className={styles.solu_description}>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Join our MHT-CET course for a compelling learning experience designed to maximize your chances of success.
                                         </p>
                                         <Link href='/courses'><button className={styles.read_more_btn} type="button">Read More</button></Link>
                                     </div>
@@ -188,7 +188,7 @@ const CoursesCard = () => {
                                     </div>
                                     <div className={styles.solu_description}>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Join our NEET course for a transformative learning experience that propels you towards your medical aspirations.
                                         </p>
                                         <Link href='/courses'><button className={styles.read_more_btn} type="button">Read More</button></Link>
                                     </div>

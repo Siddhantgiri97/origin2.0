@@ -61,45 +61,45 @@ const Detailiit = () => {
         </section>
 
 
-        <section class="py-5" id={styles.content}>
-          <div class="container px-5 my-5">
-            <div class="row gx-5">
-              <div class="col-lg-3">
-                <div class="d-flex align-items-center mt-lg-5 mb-4">
+        <section className="py-5" id={styles.content}>
+          <div className="container px-5 my-5">
+            <div className="row gx-5">
+              <div className="col-lg-3">
+                <div className="d-flex align-items-center mt-lg-5 mb-4">
 
-                  <div class="ms-3">
-                    <div class="fw-bold">Valerie Luna</div>
-                    <div class="text-muted">News, Business</div>
+                  <div className="ms-3">
+                    <div className="fw-bold">Course Name</div>
+                    <div className="text-muted">Details</div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div className="col-lg-9">
 
                 <article>
 
-                  <header class="mb-4">
+                  <header className="mb-4">
 
-                    <h1 class="fw-bolder mb-1">JEE(Main + Advanced)</h1>
+                    <h1 className="fw-bolder mb-1">JEE(Main + Advanced)</h1>
 
-                    <div class="text-muted fst-italic mb-2">January 1, 2021</div>
+                    <div className="text-muted fst-italic mb-2">January 1, 2021</div>
 
-                    <a class="badge bg-primary text-decoration-none link-light me-1" href="#!">Web Design</a>
-                    <a class="badge bg-primary text-decoration-none link-light" href="#!">Freebies</a>
+                    <a className="badge bg-primary text-decoration-none link-light me-1" href="#!">Web Design</a>
+                    <a className="badge bg-primary text-decoration-none link-light" href="#!">Freebies</a>
                   </header>
 
-                  <section class="mb-5">
-                    <p class="fs-5 mb-4">JEE Advanced exam is conducted for entry into 23 IIT&apos;s and some other prestigious universities like IISC Bangalore, IIST Thiruvananthapuram, etc.</p>
-                    <p class="fs-5 mb-4">This exam is conducted by any one of the IIT&apos;s every year. In 2020 the exam was conducted by IIT Delhi.</p>
-                    <p class="fs-5 mb-4"> In 2021, 2022, 2023 it shall be conducted by IIT Kharagpur, IIT Bombay and IIT Guwahati respectively. More than 2 lakh students become eligible to write JEE Advanced every year. The students who qualify the JEE-Main exam become eligible for the JEE-Advanced examination</p>
-                    <h2 class="fw-bolder mb-4 mt-5">Paper Pattern</h2>
-                    <p class="fs-5 mb-4">JEE(Advanced) is conducted in two shifts of three hours each - Paper-1 and Paper-2, both the papers consist questions from three major subjects- Physics, Chemistry and Mathematics. </p>
-                    <p class="fs-5 mb-4">Unlike most of the other exams, the type and the number of questions being asked in the paper varies from year to year, with an average of about 36-38 questions asked from each subject across both the shifts</p>
-                    <p class="fs-5 mb-4">JEE(Main) is conducted in single shifts of three hours - Paper-1, the papers consist questions from three major subjects- Physics, Chemistry and Mathematics.</p>
+                  <section className="mb-5">
+                    <p className="fs-5 mb-4">JEE Advanced exam is conducted for entry into 23 IIT&apos;s and some other prestigious universities like IISC Bangalore, IIST Thiruvananthapuram, etc.</p>
+                    <p className="fs-5 mb-4">This exam is conducted by any one of the IIT&apos;s every year. In 2020 the exam was conducted by IIT Delhi.</p>
+                    <p className="fs-5 mb-4"> In 2021, 2022, 2023 it shall be conducted by IIT Kharagpur, IIT Bombay and IIT Guwahati respectively. More than 2 lakh students become eligible to write JEE Advanced every year. The students who qualify the JEE-Main exam become eligible for the JEE-Advanced examination</p>
+                    <h2 className="fw-bolder mb-4 mt-5">Paper Pattern</h2>
+                    <p className="fs-5 mb-4">JEE(Advanced) is conducted in two shifts of three hours each - Paper-1 and Paper-2, both the papers consist questions from three major subjects- Physics, Chemistry and Mathematics. </p>
+                    <p className="fs-5 mb-4">Unlike most of the other exams, the type and the number of questions being asked in the paper varies from year to year, with an average of about 36-38 questions asked from each subject across both the shifts</p>
+                    <p className="fs-5 mb-4">JEE(Main) is conducted in single shifts of three hours - Paper-1, the papers consist questions from three major subjects- Physics, Chemistry and Mathematics.</p>
                   </section>
                 </article>
-                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                  <Link class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call Us</Link>
-                  <Link class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20JEE%20course%20" target="_blank"
+                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                  <Link className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="tel:7776969462"><FontAwesomeIcon icon={faPhone} shake className='me-2' />Call Us</Link>
+                  <Link className="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/7776969462?text=Hi%20there,%20I%20want%20to%20know%20more%20about%20JEE%20course%20" target="_blank"
                     rel="noopener noreferrer"><FontAwesomeIcon icon={faCommentDots} className='me-2' />Whatsapp</Link>
                 </div>
               </div>
