@@ -1,9 +1,19 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
-import Demo from '../public/day47-chemistry-lab.png'
+import GalleryImage from './galleryImage'
 
 const Gallery = () => {
+    const totalImages = 22; // Total number of images
+
+    const generateImageFilenames = (total) => {
+        const imageFilenames = [];
+        for (let i = 1; i <= total; i++) {
+            imageFilenames.push(`${i}.jpeg`);
+        }
+        return imageFilenames;
+    };
+
+    const imageFilenames = generateImageFilenames(totalImages);
+
     return (
         <>
             <Head>
@@ -16,41 +26,10 @@ const Gallery = () => {
                 <section className="py-5">
                     <div className="container my-5">
                         <div className="text-center mb-5">
-                            <h1 className="fw-bolder">Our Work</h1>
-                            <p className="lead fw-normal text-muted mb-0">Company portfolio</p>
+                            <h2 className="display-5 fw-bolder"><span className="text-gradient d-inline">Unlock your Potential</span></h2>
+                            <p className="lead fw-light mb-4">Embark on your journey to success with us.</p>
                         </div>
-                        <div className="row gx-3">
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="position-relative mb-5">
-                                    <Image className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" src={Demo} alt="..." />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="position-relative mb-5">
-                                    <Image className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" src={Demo} alt="..." />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="position-relative mb-5 mb-lg-0">
-                                    <Image className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" src={Demo} alt="..." />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="position-relative">
-                                    <Image className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" src={Demo} alt="..." />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="position-relative">
-                                    <Image className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" src={Demo} alt="..." />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="position-relative">
-                                    <Image className="img-fluid card-img-top shadow bg-white p-3 rounded-3 mb-3" src={Demo} alt="..." />
-                                </div>
-                            </div>
-                        </div>
+                        <GalleryImage images={imageFilenames} />
                     </div>
                 </section>
             </div>
