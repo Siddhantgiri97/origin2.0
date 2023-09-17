@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import story1 from '../../public/story1.jpg'
 
 import story3 from '../../public/story3.jpg'
+import story4 from '../../public/story4.png'
 
 import styles from '@/styles/Home.module.css'
 
@@ -49,7 +50,7 @@ const Journey = () => {
                             </div>
                         </li>
                         <li className={styles.timelineInverted}>
-                            <div className={styles.timelineImage}><Image className={` rounded-circle img-fluid`} src={story3} alt="..." /></div>
+                            <div className={styles.timelineImage}><Image className={` rounded-circle img-fluid`} src={story4} alt="..." /></div>
                             <div className={styles.timelinePanel}>
                                 <div className={styles.timelineHeading}>
                                     <h4>2022-2023</h4>
