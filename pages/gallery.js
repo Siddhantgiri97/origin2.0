@@ -2,6 +2,14 @@ import Head from 'next/head'
 import GalleryImage from './galleryImage'
 
 const Gallery = () => {
+
+    const [imageFilenames, setImageFilenames] = useState([]);
+
+    useEffect(() => {
+        const imageFiles = generateImageFilenames(totalImages);
+        setImageFilenames(imageFiles);
+    }, []);
+
     const totalImages = 22; // Total number of images
 
     const generateImageFilenames = (total) => {
@@ -11,8 +19,6 @@ const Gallery = () => {
         }
         return imageFilenames;
     };
-
-    const imageFilenames = generateImageFilenames(totalImages);
 
     return (
         <>
