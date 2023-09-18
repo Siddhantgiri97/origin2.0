@@ -5,26 +5,26 @@ const Loader = () => {
     return (
         <>
             <div className={styles.loader}>
-                <div class={styles.boxes}>
-                    <div class={styles.box}>
+                <div className={styles.boxes}>
+                    <div className={styles.box}>
                         <div></div>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
-                    <div class={styles.box}>
+                    <div className={styles.box}>
                         <div></div>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
-                    <div class={styles.box}>
+                    <div className={styles.box}>
                         <div></div>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
-                    <div class={styles.box}>
+                    <div className={styles.box}>
                         <div></div>
                         <div></div>
                         <div></div>
