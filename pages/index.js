@@ -2,12 +2,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import Notification from './components/notification'
 
 import Achievements from './components/achievements'
-import Teams from './components/teams'
-import Counselling from './components/counselling'
-import Journey from './components/journey'
+
 
 import rocket from '../public/rocket.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,7 +14,32 @@ import { faArrowRight, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 library.add(faArrowRight, faChevronUp);
 
 import styles from '@/styles/Home.module.css'
-import ExploreCourses from './components/exploreCourses'
+
+import dynamic from 'next/dynamic'
+
+const Notification = dynamic(() => import('./components/notification'), {
+  ssr: false,
+})
+
+const Teams = dynamic(() => import('./components/teams'), {
+  ssr: false,
+})
+
+const ExploreCourses = dynamic(() => import('./components/exploreCourses'), {
+  ssr: false,
+})
+
+const Counselling = dynamic(() => import('./components/counselling'), {
+  ssr: false,
+})
+
+const Journey = dynamic(() => import('./components/journey'), {
+  ssr: false,
+})
+
+
+
+
 
 export default function Home() {
 
@@ -33,11 +55,11 @@ export default function Home() {
     });
   }, []);
 
-  // This function will scroll the window to the top 
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // for smoothly scrolling
+      behavior: 'smooth'
     });
   };
   const handleScroll = (e) => {

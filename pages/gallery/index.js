@@ -8,9 +8,14 @@ import five from '../../public/galleryImages/5.jpeg'
 import six from '../../public/galleryImages/6.jpeg'
 import styles from '@/styles/Courses.module.css'
 import { useState } from 'react';
-import Gallery1 from './gallery1';
-import Gallery2 from './gallery2';
+import dynamic from 'next/dynamic'
 
+const Gallery1 = dynamic(() => import('./gallery1'), {
+    ssr: false,
+})
+const Gallery2 = dynamic(() => import('./gallery2'), {
+    ssr: false,
+})
 
 
 
@@ -45,7 +50,7 @@ const Gallery = () => {
                         {!showGallery1 && <div className='text-center mt-5'>
                             <button onClick={() => setshowGallery1(true)} className={`${styles.buttons}`} > Load More</button>
                         </div>}
-                        {showGallery1 && !showGallery2 &&<div className='text-center mt-5'>
+                        {showGallery1 && !showGallery2 && <div className='text-center mt-5'>
                             <button onClick={() => setshowGallery2(true)} className={`${styles.buttons}`} > Load More</button>
                         </div>}
                     </div>
