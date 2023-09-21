@@ -4,7 +4,8 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 import Achievements from './components/achievements'
-
+import Notification from './components/notification'
+import ExploreCourses from './components/exploreCourses'
 
 import rocket from '../public/rocket.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,15 +18,8 @@ import styles from '@/styles/Home.module.css'
 
 import dynamic from 'next/dynamic'
 
-const Notification = dynamic(() => import('./components/notification'), {
-  ssr: false,
-})
 
 const Teams = dynamic(() => import('./components/teams'), {
-  ssr: false,
-})
-
-const ExploreCourses = dynamic(() => import('./components/exploreCourses'), {
   ssr: false,
 })
 
